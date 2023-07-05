@@ -141,22 +141,22 @@ def time_stats(df):
     # display the most common month
     df['month'] = df['Start Time'].dt.month_name()
     # find the most common month
-    popular_month = df['month'].mode()[0]
-    print('Most common start month:', popular_month)
+    month = df['month'].mode()[0]
+    print('Most common start month:', month)
 
     # display the most common day of week
     # extract day of week from the Start Time column to create a day column
     df['day'] = df['Start Time'].dt.day_name()
     # find the most common day
-    popular_day = df['day'].mode()[0]
-    print('Most common start day:', popular_day)
+    day = df['day'].mode()[0]
+    print('Most common start day:', day)
 
     # display the most common start hour
     # extract hour from the Start Time column to create an hour column
     df['hour'] = df['Start Time'].dt.hour
     # find the most common hour (from 0 to 23)
-    popular_hour = df['hour'].mode()[0]
-    print('Most common start hour:', popular_hour)
+    hour = df['hour'].mode()[0]
+    print('Most common start hour:', hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
