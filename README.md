@@ -35,3 +35,14 @@ The following software were applied:
 - Python 3 (NumPy, and pandas were installed using Anaconda)
 + PyCharm
 * Project Workspace to complete and submit my project by Udacity
+
+## **Credits**
+The following materials inspired me throughout the writing of my project:
+- [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
++ [NumPy User Guide](https://numpy.org/devdocs/user/index.html)
+* [Few source from stackoverflow](https://stackoverflow.com/questions/50192965/how-to-make-user-input-not-case-sensitive)
+- [Python Cheat Sheet](http://www.sixthresearcher.com/python-3-reference-cheat-sheet-for-beginners/)
+
+
+###### Date
+_The project was created on June 12, 2023._
