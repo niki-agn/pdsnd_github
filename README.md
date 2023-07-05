@@ -42,6 +42,7 @@ The following materials inspired me throughout the writing of my project:
 + [NumPy User Guide](https://numpy.org/devdocs/user/index.html)
 * [Few source from stackoverflow](https://stackoverflow.com/questions/50192965/how-to-make-user-input-not-case-sensitive)
 - [Python Cheat Sheet](http://www.sixthresearcher.com/python-3-reference-cheat-sheet-for-beginners/)
++ [Python Docs](https://docs.python.org/3/)
 
 
 ###### Date
