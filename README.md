@@ -29,3 +29,9 @@ The following files of data were used during the project:
 - chicago.csv
 + new_york_city.csv
 * washington.csv
+
+## **Software used**
+The following software were applied:
+- Python 3 (NumPy, and pandas were installed using Anaconda)
++ PyCharm
+* Project Workspace to complete and submit my project by Udacity
