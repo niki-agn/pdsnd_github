@@ -239,10 +239,10 @@ def print_raw_data(df):
     if answer.lower() != 'yes':
         return
     for idx, row in enumerate(df.itertuples(index=False)):
-        # print("--- START row {} data ---".format(idx))
-        # print(df.iloc[idx])
-        # print("--- END of row {} data ---".format(idx))
-        print(row)
+        print("--- START row {} data ---".format(idx))
+        print(df.iloc[idx])
+        print("--- END of row {} data ---".format(idx))
+        # print(row)
         if ((idx + 1) % 5) == 0:
             answer = input("Do you want to see the next 5 lines of raw data, starting from row {}? "
                            "Enter yes or no.".format(idx + 1))
